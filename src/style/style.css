@@ -1,0 +1,180 @@
+html, body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p,
+a, acronym, address, big, cite, code,
+del, dfn, em, img, ins, small, strike, strong
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.body {
+  position: relative;
+}
+.candidate-list-app-load {
+  position: absolute;
+  left: 45%;
+  top: 48%;
+  background-color: gold;
+  border: 1px solid gray;
+  line-height: 200%;
+}
+.candidate-list-app {
+  width: 900px;
+  margin: 20px auto;
+  position: relative;
+}
+.candidate-list-app-exit {
+  position: absolute;
+  right: 30px;
+  top: 14px;
+  border-radius: 50%;
+  border-color: red;
+  color: red;
+}
+.candidate-list-app-exit:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+#app-table col[span="1"] {
+  width: 50px;
+}
+#app-table col {
+  width: 215px;
+}
+#app-table thead tr {
+  text-align: left;
+  line-height: 300%;
+  background-color: black;
+  color: white;
+}
+#app-table thead tr th:first-child,
+#app-table thead tr th:last-child {
+  text-align: center;
+}
+#app-table tbody tr {
+  line-height: 300%;
+  border-bottom: 0.5px solid rgba(80, 80, 80, 0.2);
+}
+#app-table tbody tr td:first-child {
+  text-align: center;
+}
+#app-table tbody tr td:last-child {
+  text-align: center;
+}
+#app-table tbody tr td:last-child button {
+  padding: 0 10px;
+  font-size: 70%;
+  line-height: 220%;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: white;
+  border: none;
+}
+#app-table tbody tr td:last-child button:hover {
+  color: gold;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+#app-table tbody tr td:last-child .candidate-list-button-save,
+#app-table tbody tr td:last-child .candidate-list-button-edit {
+  background-color: #54a6e6;
+}
+#app-table tbody tr td:last-child .candidate-list-button-delete,
+#app-table tbody tr td:last-child .candidate-list-button-cancel {
+  background-color: #d04c4f;
+}
+.candidate-list-button-catalog-container {
+  width: 800;
+  margin: 30px auto;
+  text-align: center;
+}
+.candidate-list-button-catalog-container .candidate-list-button-catalog {
+  background-color: Lavender;
+  border: 0.5px solid gray;
+  line-height: 140%;
+  width: 150px;
+  margin: 0 10px;
+}
+.candidate-list-button-catalog-container .candidate-list-button-catalog:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.candidate-list-button-catalog-container #csv-export {
+  font-size: 15px;
+  border: 0.5px solid gray;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  background-color: Lavender;
+  line-height: 140%;
+  margin: 0 10px;
+  border-radius: 1px;
+}
+.candidate-list-button-catalog-container #csv-export:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+#inputfile {
+  display: none;
+  position: absolute;
+  left: -5000;
+}
+label.candidate-list-button-catalog {
+  font-size: 15px;
+  border: 0.5px solid gray;
+  display: block;
+  color: black;
+  width: 300px;
+  background-color: Lavender;
+  line-height: 140%;
+  margin: auto;
+  border-radius: 1px;
+  text-align: center;
+}
+label.candidate-list-button-catalog.candidate-list-button-catalog-loadbase {
+  display: inline-block;
+}
+label.candidate-list-button-catalog:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.error {
+  text-align: center;
+  color: orangered;
+  font-size: 120%;
+}
